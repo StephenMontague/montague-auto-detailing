@@ -5,3 +5,9 @@
 .app__body {
 	display: flex;
 }
+
+.routes {
+	margin-top: 50px;
+	margin-left: 35px;
+	margin-right: 35px;
+}

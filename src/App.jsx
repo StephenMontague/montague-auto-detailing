@@ -5,6 +5,7 @@ import {
 } from 'react-router-dom';
 import './App.css';
 import Home from './components/body/Home';
+import Services from './components/body/offers/Service';
 import Header from './components/header/Header';
 
 function App() {
@@ -12,13 +13,19 @@ function App() {
 		<div className='app'>
 			<Router>
 				<Header />
-				<Routes>
-					<Route
-						exact
-						path='/'
-						element={<Home />}
-					/>
-				</Routes>
+				<div className='routes'>
+					<Routes>
+						<Route
+							exact
+							path='/'
+							element={<Home />}
+						/>
+						<Route
+							path='/services'
+							element={<Services />}
+						/>
+					</Routes>
+				</div>
 			</Router>
 		</div>
 	);
