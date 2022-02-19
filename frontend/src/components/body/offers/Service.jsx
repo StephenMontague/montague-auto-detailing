@@ -1,13 +1,15 @@
-import React from 'react';
-import './Service.css';
-import ServiceOffer from './ServiceOffer';
+import React, { useEffect } from 'react';
 
-const Services = () => {
+const Service = ({ name, description, serviceType, price}) => {
+	const[type, setType] = useEffect('Exterior')
+	
 	return (
-		<div className='services'>
-			<ServiceOffer name={'Basic Clean'} />
+		<div className='serviceOffer'>
+			<h1>{name}</h1>
+			<p>{description}</p>
+			<p>{price}</p>
 		</div>
 	);
 };
 
-export default Services;
+export default Service;
