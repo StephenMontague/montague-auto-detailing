@@ -5,7 +5,7 @@ import {
 } from 'react-router-dom';
 import './App.css';
 import Home from './components/body/Home';
-import Services from './components/body/offers/Service';
+import ServiceList from './components/body/offers/ServiceList';
 import Header from './components/header/Header';
 
 function App() {
@@ -22,7 +22,7 @@ function App() {
 						/>
 						<Route
 							path='/services'
-							element={<Services />}
+							element={<ServiceList />}
 						/>
 					</Routes>
 				</div>
