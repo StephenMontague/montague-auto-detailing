@@ -1,8 +1,13 @@
 import React, { useEffect } from 'react';
 
-const Service = ({ name, description, serviceType, price}) => {
-	const[type, setType] = useEffect('Exterior')
-	
+const Service = ({
+	name,
+	description,
+	serviceType,
+	price,
+}) => {
+	const [type, setType] = useEffect('Exterior');
+
 	return (
 		<div className='serviceOffer'>
 			<h1>{name}</h1>

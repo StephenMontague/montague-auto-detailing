@@ -3,6 +3,8 @@
 # dependencies
 /node_modules
 /node_modules/.cache
+/node_modules/babel-loader
+
 /.pnp
 .pnp.js
 
@@ -23,3 +25,4 @@ npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
 .eslintcache
+.gitignore
