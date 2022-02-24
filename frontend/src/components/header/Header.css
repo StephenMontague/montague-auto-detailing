@@ -20,15 +20,30 @@
 .header__top {
 	display: flex;
 	justify-content: space-between;
+	max-height: 125px;
 }
 
 .header__left {
 	display: flex;
 	justify-content: space-evenly;
+	height: 150px;
+}
+
+.header__left > img {
+	height: 100%;
+	width: 150px;
+}
+
+.header__left > h1 {
+	padding-top: 35px;
 }
 
 .header__right {
 	display: flex;
+}
+
+.header__right > h1 {
+	padding-top: 35px;
 }
 
 .header__bottom {

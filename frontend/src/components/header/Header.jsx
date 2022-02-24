@@ -1,6 +1,7 @@
 import React from 'react';
 import './Header.css';
 import SubHeader from './SubHeader';
+import logo from '../../static/images/logo.jpg';
 
 const Header = () => {
 	return (
@@ -9,6 +10,10 @@ const Header = () => {
 				<div className='header__stack'>
 					<div className='header__top'>
 						<div className='header__left'>
+							<img
+								src={logo}
+								alt='logo'
+							/>
 							<h1>
 								Montague Auto
 								Detailing

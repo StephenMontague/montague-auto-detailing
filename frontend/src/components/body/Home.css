@@ -1,3 +1,13 @@
-.home {
-	padding-top: 500px;
+.home > img {
+	width: 100%;
+}
+.home__info > h3 {
+	text-align: center;
+}
+
+.home > img {
+	max-width: 80%;
+	max-height: 500px;
+	justify-content: center;
+	padding-left: 205px;
 }
