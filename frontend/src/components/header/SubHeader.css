@@ -1,3 +1,19 @@
+.subheader {
+	width: 100%;
+	display: flex;
+	justify-content: space-between;
+}
+
+.subheader__left {
+	display: flex;
+	justify-content: space-evenly;
+}
+
+.subheader__right {
+	display: flex;
+}
+
 .link {
 	margin-right: 35px;
+	text-decoration: none;
 }

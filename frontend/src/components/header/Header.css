@@ -46,6 +46,10 @@
 	padding-top: 35px;
 }
 
+.header__right > h1 > a {
+	text-decoration: none;
+}
+
 .header__bottom {
 	display: flex;
 }
