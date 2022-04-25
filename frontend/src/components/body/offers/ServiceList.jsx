@@ -2,6 +2,7 @@ import React, { useEffect, useState } from 'react';
 import './ServiceList.css';
 import Service from './Service';
 import OffersService from '../../../services/OffersService';
+import Button from '../../UI/Button';
 
 const ServiceList = () => {
 	const [offers, setOffers] = useState([]);
@@ -34,9 +35,14 @@ const ServiceList = () => {
 
 	return (
 		<div className='services'>
+			<Button name='Exterior' />
+			<Button name='Interior' />
+			<Button name='Combos' />
+			<Button name='Add Ons' />
 			<ul>{offersList}</ul>
 		</div>
 	);
 };
 
 export default ServiceList;
+

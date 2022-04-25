@@ -1,3 +1,5 @@
+import './Service.css';
+
 const Service = props => {
 	return (
 		<div className='serviceOffer'>
