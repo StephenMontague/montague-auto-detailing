@@ -1,6 +1,0 @@
-com/montagueautodetailing/website/model/Service.class
-com/montagueautodetailing/website/controller/ServiceController.class
-com/montagueautodetailing/website/model/Customer.class
-com/montagueautodetailing/website/repository/ServiceRepository.class
-com/montagueautodetailing/website/exception/ResourceNotFoundException.class
-com/montagueautodetailing/website/MontagueAutoDetailingWebsiteApplication.class
