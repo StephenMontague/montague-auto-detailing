@@ -10,18 +10,14 @@ const Header = () => {
 				<div className='header__stack'>
 					<div className='header__top'>
 						<div className='header__left'>
-							<img
-								src={logo}
-								alt='logo'
-							/>
-							<h1>
-								Montague Auto
-								Detailing
-							</h1>
+							<img src={logo} alt='logo' />
+							<h1 className='flex items-center py-8'>Montague Auto Detailing</h1>
 						</div>
 						<div className='header__right'>
 							<h1>
-								<a href='mailto: stephen@getmadclean.org?subject=Tell me more about MAD Clean Services!'>
+								<a
+									href='mailto: stephen@getmadclean.org?subject=Tell me more about MAD Clean Services!'
+									className='flex items-center py-8'>
 									Get in Touch!
 								</a>
 							</h1>
@@ -37,3 +33,4 @@ const Header = () => {
 };
 
 export default Header;
+

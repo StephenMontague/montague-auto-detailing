@@ -1,11 +1,11 @@
-import './Service.css';
-
 const Service = props => {
 	return (
-		<div className='serviceOffer'>
-			<h1>{props.name}</h1>
-			<p>{props.description}</p>
-			<p>{props.price}</p>
+		<div>
+			<h1 className='text-4xl'>{props.name}</h1>
+			<div>
+				<p>{props.description}</p>
+				<p>{props.price}</p>
+			</div>
 		</div>
 	);
 };
