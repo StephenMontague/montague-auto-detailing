@@ -1,10 +1,12 @@
 const Service = props => {
 	return (
 		<div>
-			<h1 className='text-4xl'>{props.name}</h1>
+			<h1 className='text-4xl bg-slate-700'>{props.name}</h1>
 			<div>
-				<p>{props.description}</p>
-				<p>{props.price}</p>
+				<p className='bg-slate-700'>{props.description}</p>
+			</div>
+			<div>
+				<p className='bg-slate-700 py-3'>{props.price}</p>
 			</div>
 		</div>
 	);

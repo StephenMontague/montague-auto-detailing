@@ -2,6 +2,7 @@ import React, { useEffect, useState } from 'react';
 import Service from './Service';
 import OffersService from '../../../services/OffersService';
 import Button from '../../UI/Button';
+import Card from '../../UI/Card';
 
 const ServiceList = () => {
 	const [offers, setOffers] = useState([]);
@@ -33,19 +34,23 @@ const ServiceList = () => {
 				<Button name='Combo' onClick={onServiceTypeHandler} />
 				<Button name='Add On' onClick={onServiceTypeHandler} />
 			</div>
-			<ul>
+			<ul className='m-8'>
 				{offers.map(offer => {
 					if (offer.serviceType === service) {
 						return (
-							<li key={offer.id}>
-								<Service
-									code={offer.serviceCode}
-									name={offer.serviceName}
-									description={offer.description}
-									type={offer.serviceType}
-									price={offer.salePrice}
-								/>
-							</li>
+							<div className='m-auto p-2 justify-center m-w-3/4 w-1/2'>
+								<Card>
+									<li className='justify-center space-y-2' key={offer.id}>
+										<Service
+											code={offer.serviceCode}
+											name={offer.serviceName}
+											description={offer.description}
+											type={offer.serviceType}
+											price={offer.salePrice}
+										/>
+									</li>
+								</Card>
+							</div>
 						);
 					} else {
 						return '';
