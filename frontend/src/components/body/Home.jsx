@@ -1,11 +1,10 @@
 import React from 'react';
 import './Home.css';
-import image from '../../static/images/background.jpg';
+import Slideshow from '../UI/Slideshow';
 
 const Home = () => {
 	return (
 		<div className='home'>
-			<img src={image} alt='background' />
 			<div className='home__info'>
 				<h3>Montague Auto Detailing</h3>
 				<p>
@@ -16,7 +15,9 @@ const Home = () => {
 					or general inquiries, get in touch today!
 				</p>
 			</div>
-			<div className='home__slideShow'></div>
+			<div className='home__slideShow'>
+				<Slideshow />
+			</div>
 			<div className='home__testimonials'></div>
 		</div>
 	);
