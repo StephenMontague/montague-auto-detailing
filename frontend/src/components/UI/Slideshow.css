@@ -1,14 +1,23 @@
-.slide {
+.slider {
 	position: relative;
-	height: 100vh;
+	height: auto;
 	display: flex;
 	justify-content: center;
 	align-items: center;
+  width: 50%;
+  margin: auto;
+  padding-top: 10px;
+}
+
+.slide active {
+  height:1250px;
+  width: 1250px;
 }
 
 .image {
-	width: 1000px;
-	height: 600px;
+	max-height: 100%;
+  max-width: 100%;
+  margin: auto;
 	border-radius: 10px;
 }
 

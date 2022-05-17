@@ -4,8 +4,11 @@ import { ArrowCircleRight, ArrowCircleLeft } from '@mui/icons-material';
 
 const Slideshow = props => {
 	const slideShow = [
-		{ image: require('../../static/images/background.jpg') },
-		{ image: require('../../static/images/logo.jpg') },
+		{ image: require('../../static/images/cobra_kai.jpeg') },
+		{ image: require('../../static/images/bmw.jpeg') },
+		{ image: require('../../static/images/jeep.jpeg') },
+		{ image: require('../../static/images/4runner.jpeg') },
+		{ image: require('../../static/images/matthew_polish.jpeg') },
 	];
 
 	const [current, setCurrent] = useState(0);
