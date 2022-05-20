@@ -1,6 +1,7 @@
 * {
 	background-color: #031c32;
 	color: #b9cbea;
+	font-family: 'Optima';
 }
 
 .app__body {
@@ -12,3 +13,4 @@
 	margin-left: 35px;
 	margin-right: 35px;
 }
+
