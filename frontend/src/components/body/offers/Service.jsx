@@ -6,11 +6,10 @@ const Service = props => {
 				<p className='bg-slate-700'>{props.description}</p>
 			</div>
 			<div>
-				<p className='bg-slate-700 py-3'>{props.price}</p>
+				<p className='py-3 bg-slate-700 text-large '>{props.price}</p>
 			</div>
 		</div>
 	);
 };
 
 export default Service;
-
